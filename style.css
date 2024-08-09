@@ -1,0 +1,68 @@
+body {
+     background: url('file:///C:/Users/me/Desktop/weather/background.jpg') no-repeat center center fixed;
+     background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  main {
+    max-width: 500px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section {
+    margin-bottom: 2em;
+  }
+  
+  #city-input {
+    width: 90%;
+    padding: 1em;
+    font-size: 1.2em;
+    border: 1px solid #ccc;
+  }
+  
+  #search-button {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #search-button:hover {
+    background-color: #444;
+  }
+  
+  #current-weather {
+    background-color: #f7f7f7;
+    padding: 1em;
+    border: 1px solid #ddd;
+  }
+  
+  #forecast {
+    padding: 1em;
+  }
+  
+  .forecast-item {
+    background-color: #f7f7f7;
+    padding: 1em;
+    border: 1px solid #ddd;
+    margin-bottom: 1em;
+  }
+  
+  #date {
+    font
